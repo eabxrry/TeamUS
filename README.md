@@ -63,7 +63,7 @@ function fisherYatesShuffle(array) {
 ```bash
 # Cloner le repo
 git clone https://github.com/eabxrry/TeamUS.git
-cd teamus
+cd TeamUS
 
 # Backend
 cd back.app
