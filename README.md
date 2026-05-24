@@ -1,23 +1,23 @@
-# 🎓 TeamUS — Générateur de Groupes équitables
+# TeamUS — Générateur de Groupes équitables
 
 *Nous, en équipe.* — Application fullstack pour former des groupes équitables et aléatoires, sans conflits et sans favoritisme.
 
 ---
 
-## 🧩 Contexte & Problème résolu
+## Contexte & Problème résolu
 
 Dans ma classe , la formation des groupes de TP était source de tensions : certains étudiants se retrouvaient toujours ensemble, d'autres étaient mis de côté. J'ai créé **TeamUS** pour résoudre ce problème — un tirage aléatoire équitable, accessible à toute la classe via un simple lien partagé. Plus de conflits, plus de favoritisme : on est tous dans la même équipe.
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
-### 👤 Côté utilisateur
+### Côté utilisateur
 - Rejoindre la session via un lien partagé
 - Saisir son nom et choisir une couleur personnalisée pour sa carte
 - Voir les groupes générés après le tirage
 
-### 🔐 Côté admin
+### Côté admin
 - Tableau de bord protégé par authentification
 - Lancer le tirage en définissant le nombre de membres par groupe
 - Relancer le tirage avec un nombre de membres différent
@@ -25,7 +25,7 @@ Dans ma classe , la formation des groupes de TP était source de tensions : cert
 
 ---
 
-## 🛠️ Stack technique
+## Stack technique
 
 | Côté | Technologies |
 |------|-------------|
@@ -36,7 +36,7 @@ Dans ma classe , la formation des groupes de TP était source de tensions : cert
 
 ---
 
-## 🔀 Algorithme de mélange — Fisher-Yates
+## Algorithme de mélange — Fisher-Yates
 
 Le tirage utilise l'algorithme **Fisher-Yates** (aussi appelé Knuth shuffle), qui garantit une distribution parfaitement uniforme : chaque permutation possible des membres a exactement la même probabilité d'être générée.
 
@@ -52,7 +52,7 @@ function fisherYatesShuffle(array) {
 
 ---
 
-## 🚀 Lancer le projet en local
+## Lancer le projet en local
 
 ### Prérequis
 - Node.js >= 16
@@ -87,7 +87,7 @@ PORT=3000
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 teamus.app/
@@ -110,7 +110,7 @@ teamus.app/
 
 ---
 
-## 💡 Ce que j'ai appris
+## Ce que j'ai appris
 
 - Conception d'une API REST avec Express et MongoDB
 - Gestion de l'authentification admin (JWT)
