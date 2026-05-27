@@ -12,7 +12,7 @@ In my class, forming lab groups was always a source of tension — some students
 
 ## Features
 
-**Student side**
+**Student ( user ) side**
 - Join the session via a shared link
 - Enter your name and pick a custom color for your card
 - See the generated groups after the draw
